@@ -7,3 +7,7 @@ Die die = new Die();
 int roll = die.RollDie();
 Console.WriteLine(roll);
 die.PrintDie(roll);
+
+roll = die.RollDie();
+Console.WriteLine(roll);
+die.PrintDie(roll);
