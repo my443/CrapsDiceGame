@@ -2,12 +2,7 @@
 
 
 
-Console.WriteLine($"Hello, World!{GameState.Win}");
-Die die = new Die();
-int roll = die.RollDie();
-Console.WriteLine(roll);
-die.PrintDie(roll);
+Console.WriteLine($"Welcome to a simple Craps Dice Game!");
 
-roll = die.RollDie();
-Console.WriteLine(roll);
-die.PrintDie(roll);
+Game game = new Game();
+

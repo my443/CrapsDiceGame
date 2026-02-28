@@ -20,6 +20,15 @@ namespace CrapsDiceGame
             return random.Next(1, 7);
         }
 
+        public int RollTwoDiceAndPrintOutput() { 
+            int roll1 = RollDie();
+            int roll2 = RollDie();
+
+            PrintDie(roll1);
+            PrintDie(roll2);
+            return roll1 + roll2;
+        }
+
         public void PrintDie(int number) {
             Console.WriteLine(_dicePictures[number-1]);
         }
