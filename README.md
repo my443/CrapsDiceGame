@@ -17,3 +17,8 @@ You get two rolls.
 * You keep rolling the dice until you match the Point Number or get a 7. 
 * If you match the Point Number you win. 
 * If you roll a 7, you lose. 
+
+
+## To Do
+1. Add Wins and losses to the scoreboard. 
+2. Pause between each roll and let the user hit the space bar to roll. (So that they feel like they are in control of rolling.)
